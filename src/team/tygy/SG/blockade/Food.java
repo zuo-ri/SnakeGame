@@ -1,11 +1,12 @@
-package com.tygy.role;
+package team.tygy.SG.blockade;
+
+import static team.tygy.SG.util.ConstantUtil.*;
 
 import java.awt.Color;
 import java.awt.Graphics;
 
-import com.tygy.snake.Snake;
-import com.tygy.util.MyUtil;
-import static com.tygy.util.ConstantUtil.*;
+import team.tygy.SG.snake.Snake;
+import team.tygy.SG.util.MyUtil;
 /**
  * 
  * @ClassName: Food

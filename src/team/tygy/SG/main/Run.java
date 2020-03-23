@@ -1,6 +1,6 @@
-package com.tygy.main;
+package team.tygy.SG.main;
 
-import com.tygy.ui.GameFrame;
+import team.tygy.SG.ui.GameFrame;
 /**
  * 
  * @ClassName: Run

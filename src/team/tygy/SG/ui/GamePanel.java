@@ -1,8 +1,8 @@
-package com.tygy.ui;
+package team.tygy.SG.ui;
 
-import static com.tygy.util.ConstantUtil.GAME_JPANEL_H;
-import static com.tygy.util.ConstantUtil.GAME_JPANEL_W;
-import static com.tygy.util.ConstantUtil.SNAKE_CELL_SIZE;
+import static team.tygy.SG.util.ConstantUtil.GAME_JPANEL_H;
+import static team.tygy.SG.util.ConstantUtil.GAME_JPANEL_W;
+import static team.tygy.SG.util.ConstantUtil.SNAKE_CELL_SIZE;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -10,9 +10,9 @@ import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
-import com.tygy.interaction.SnakeChange;
-import com.tygy.role.Food;
-import com.tygy.snake.Snake;
+import team.tygy.SG.blockade.Food;
+import team.tygy.SG.interaction.SnakeChange;
+import team.tygy.SG.snake.Snake;
 /**
  * 
  * @ClassName: GameJPanel
@@ -23,7 +23,7 @@ import com.tygy.snake.Snake;
  *
  */
 @SuppressWarnings("serial")
-public class GameJPanel extends JPanel {
+public class GamePanel extends JPanel {
 	
 	private Food food = new Food();
 	private Snake snake =new Snake();
@@ -31,12 +31,12 @@ public class GameJPanel extends JPanel {
 	
 	/**
 	 * 
-	 * @Title: GameJPanel
+	 * @Title: GamePanel
 	 * @Description: TODO  在构造方法中初始化
 	 * @param:  
 	 * @throws
 	 */
-	public GameJPanel() {
+	public GamePanel() {
 		init();
 	}
 

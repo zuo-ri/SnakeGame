@@ -1,12 +1,12 @@
-package com.tygy.snake;
+package team.tygy.SG.snake;
 
-import static com.tygy.util.ConstantUtil.DOWN;
-import static com.tygy.util.ConstantUtil.LEFT;
-import static com.tygy.util.ConstantUtil.RIGHT;
-import static com.tygy.util.ConstantUtil.SNAKE_CELL_SIZE;
-import static com.tygy.util.ConstantUtil.SNAKE_GRID_H;
-import static com.tygy.util.ConstantUtil.SNAKE_GRID_W;
-import static com.tygy.util.ConstantUtil.UP;
+import static team.tygy.SG.util.ConstantUtil.DOWN;
+import static team.tygy.SG.util.ConstantUtil.LEFT;
+import static team.tygy.SG.util.ConstantUtil.RIGHT;
+import static team.tygy.SG.util.ConstantUtil.SNAKE_CELL_SIZE;
+import static team.tygy.SG.util.ConstantUtil.SNAKE_GRID_H;
+import static team.tygy.SG.util.ConstantUtil.SNAKE_GRID_W;
+import static team.tygy.SG.util.ConstantUtil.UP;
 
 import java.awt.Color;
 import java.awt.Graphics;

@@ -1,4 +1,4 @@
-package com.tygy.snake;
+package team.tygy.SG.snake;
 /**
  * 
  * @ClassName: SnakeNode

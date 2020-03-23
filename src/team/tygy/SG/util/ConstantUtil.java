@@ -1,4 +1,4 @@
-package com.tygy.util;
+package team.tygy.SG.util;
 /**
  * 
  * @ClassName: ConstantUtil

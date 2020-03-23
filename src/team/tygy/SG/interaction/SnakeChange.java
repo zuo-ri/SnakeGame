@@ -1,19 +1,19 @@
-package com.tygy.interaction;
+package team.tygy.SG.interaction;
 
-import static com.tygy.util.ConstantUtil.DOWN;
-import static com.tygy.util.ConstantUtil.LEFT;
-import static com.tygy.util.ConstantUtil.RIGHT;
-import static com.tygy.util.ConstantUtil.UP;
+import static team.tygy.SG.util.ConstantUtil.DOWN;
+import static team.tygy.SG.util.ConstantUtil.LEFT;
+import static team.tygy.SG.util.ConstantUtil.RIGHT;
+import static team.tygy.SG.util.ConstantUtil.UP;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-import com.tygy.role.Food;
-import com.tygy.snake.Snake;
+import team.tygy.SG.blockade.Food;
+import team.tygy.SG.snake.Snake;
 
 /**
  * @ClassName: SnakeChange
- * @Description: TODO
+ * @Description: TODO 处理蛇在移动过程中发生的事
  * @author 陈思祥
  * @date 2020年3月20日-下午4:48:54
  * @version 1.0

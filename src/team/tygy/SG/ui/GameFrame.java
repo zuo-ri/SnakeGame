@@ -1,12 +1,14 @@
-package com.tygy.ui;
+package team.tygy.SG.ui;
 
-import static com.tygy.util.ConstantUtil.GAME_FRAME_H;
-import static com.tygy.util.ConstantUtil.GAME_FRAME_POSITION_X;
-import static com.tygy.util.ConstantUtil.GAME_FRAME_POSITION_Y;
-import static com.tygy.util.ConstantUtil.GAME_FRAME_W;
-import static com.tygy.util.ConstantUtil.GAME_TITLE;
+import static team.tygy.SG.util.ConstantUtil.GAME_FRAME_H;
+import static team.tygy.SG.util.ConstantUtil.GAME_FRAME_POSITION_X;
+import static team.tygy.SG.util.ConstantUtil.GAME_FRAME_POSITION_Y;
+import static team.tygy.SG.util.ConstantUtil.GAME_FRAME_W;
+import static team.tygy.SG.util.ConstantUtil.GAME_TITLE;
+import static team.tygy.SG.util.ImagesUtil.frame_icon;
 
-import java.awt.Insets;
+import java.awt.Image;
+import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 /**
@@ -21,7 +23,7 @@ import javax.swing.JFrame;
 @SuppressWarnings({ "serial", "unused" })
 public class GameFrame extends JFrame{
 	
-	private GameJPanel panel = new GameJPanel();
+	private GamePanel panel = new GamePanel();
 	
 	/**
 	 * 
@@ -44,6 +46,7 @@ public class GameFrame extends JFrame{
 	*/
 	private void initFrame() {
 		JFrame frame = new JFrame(GAME_TITLE);										//绘制一个静态窗口并添加标题
+		frame.setIconImage(frame_icon);												//修改窗口的logo
 		frame.setBounds(GAME_FRAME_POSITION_X, GAME_FRAME_POSITION_Y,				//设置窗口的位置和大小
 				GAME_FRAME_W, GAME_FRAME_H);	
 		frame.setResizable(false);													//设置窗口大小不可改变
