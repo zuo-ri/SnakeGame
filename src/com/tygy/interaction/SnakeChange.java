@@ -114,10 +114,34 @@ public class SnakeChange implements KeyListener{
 				 */
 				snake.setPause(!snake.isPause());
 			break;
+			//按下U加速
+		case KeyEvent.VK_U :
+			if(snake.getSleepTime()!=50)
+				snake.setSleepTime(50);
+			break;
+			//按下I减速
+		case KeyEvent.VK_I :
+			if(snake.getSleepTime()!=500)
+				snake.setSleepTime(500);
+			break;
 		}
 	}
 	@Override
 	public void keyReleased(KeyEvent e) {
+		int key = e.getKeyCode();
+		switch(key){
+		//释放U变回原来的速度
+		case KeyEvent.VK_U :			
+				snake.setSleepTime(300);
+			break;
+		//释放I变回原来的速度
+		case KeyEvent.VK_I :			
+				snake.setSleepTime(300);
+			break;
+		
+		
+		}
+		
 		//TODO
 	}
 	@Override
