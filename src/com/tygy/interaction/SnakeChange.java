@@ -137,9 +137,7 @@ public class SnakeChange implements KeyListener{
 		//释放I变回原来的速度
 		case KeyEvent.VK_I :			
 				snake.setSleepTime(300);
-			break;
-		
-		
+			break;			
 		}
 		
 		//TODO
