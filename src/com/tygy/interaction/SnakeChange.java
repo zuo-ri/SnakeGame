@@ -5,6 +5,7 @@ import static com.tygy.util.ConstantUtil.LEFT;
 import static com.tygy.util.ConstantUtil.RIGHT;
 import static com.tygy.util.ConstantUtil.UP;
 
+
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -90,22 +91,30 @@ public class SnakeChange implements KeyListener{
 			 */
 			if(snake.getHead().getDir() != RIGHT){
 				snake.getHead().setDir(LEFT);
-			}
+				}		
+				
+			
 			break;
 		case KeyEvent.VK_W :
 			if(snake.getHead().getDir() != DOWN){
 				snake.getHead().setDir(UP);
-			}
+				}
+			
+			
 			break;
 		case KeyEvent.VK_D :
 			if(snake.getHead().getDir() != LEFT){
 				snake.getHead().setDir(RIGHT);
-			}
+				}
+			
+			
 			break;
 		case KeyEvent.VK_S :
 			if(snake.getHead().getDir() != UP){
 				snake.getHead().setDir(DOWN);
-			}
+				}
+				
+			
 			break;
 		case KeyEvent.VK_SPACE :
 				/**
@@ -124,7 +133,7 @@ public class SnakeChange implements KeyListener{
 			if(snake.getSleepTime()!=500)
 				snake.setSleepTime(500);
 			break;
-		}
+		}		
 	}
 	@Override
 	public void keyReleased(KeyEvent e) {
