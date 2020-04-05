@@ -100,7 +100,7 @@ public class SnakeChange implements KeyListener{
 				snake.getHead().setDir(UP);
 				}
 			
-			
+			 
 			break;
 		case KeyEvent.VK_D :
 			if(snake.getHead().getDir() != LEFT){
