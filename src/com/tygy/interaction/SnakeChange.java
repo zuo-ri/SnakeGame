@@ -131,7 +131,7 @@ public class SnakeChange implements KeyListener{
 			//°´ÏÂI¼õËÙ
 		case KeyEvent.VK_I :
 			if(snake.getSleepTime()!=500)
-				snake.setSleepTime(500);
+				snake.setSleepTime(500); 
 			break;
 		}		
 	}
